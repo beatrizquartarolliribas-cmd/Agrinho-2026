@@ -1,1 +1,27 @@
+function mostrarMensagem(){
 
+alert(
+"A tecnologia permite produzir mais alimentos preservando o meio ambiente."
+);
+
+}
+
+function correta(){
+
+document.getElementById("resultado").innerHTML =
+"✅ Correto! O ideal é aumentar a produtividade utilizando tecnologia.";
+
+document.getElementById("resultado").style.color =
+"green";
+
+}
+
+function errada(){
+
+document.getElementById("resultado").innerHTML =
+"❌ Incorreto! Expandir áreas sem controle causa impactos ambientais.";
+
+document.getElementById("resultado").style.color =
+"red";
+
+}
